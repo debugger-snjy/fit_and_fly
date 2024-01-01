@@ -1,0 +1,432 @@
+/* Login Page CSS */
+
+.loginPage {
+  margin-top: 75px;
+}
+
+.inputField,
+.inputField:focus {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  border-radius: 15px;
+  background-color: #f0f6f5;
+  box-shadow: 5px 5px 0px 2px black;
+  padding: 10px;
+}
+
+.inputField::placeholder {
+  color: rgb(62, 62, 62);
+}
+
+.signupInputField,
+.signupInputField:focus {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  border-radius: 15px;
+  background-color: #f0f6f5;
+  box-shadow: 5px 5px 0px 2px black;
+  padding: 5px;
+}
+
+.signupInputField::placeholder {
+  color: rgb(62, 62, 62);
+}
+
+.loginBtn {
+  font-size: 23px;
+  color: white;
+  margin-top: 25px;
+  font-weight: 500;
+  background-color: rgb(31, 120, 1);
+  outline: none;
+  width: 25%;
+  border-radius: 35px;
+  border: 1px solid white;
+}
+
+.loginBtn:focus,
+.loginBtn:focus-within,
+.loginBtn:focus-visible {
+  outline: none;
+}
+
+.loginBtn:hover {
+  box-shadow: 0px 0px 2px 2px white;
+  outline: none;
+  border: 1px solid white;
+  background-color: rgb(0, 66, 0);
+}
+
+.centerIt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.designedFont {
+  font-family: "Rubik Doodle Shadow";
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+.hrStyle {
+  opacity: 1;
+  background-color: white;
+  height: 4px;
+}
+
+/* Adding the Media Queries */
+
+@media screen and (min-width: 1200px) {
+  .logoImg {
+    color: #fff;
+    width: 60%;
+  }
+  .loginBtn {
+    margin-top: 100px;
+    width: 50%;
+  }
+  .loginBtn {
+    margin-top: 50px;
+  }
+  .loginPage {
+    margin-top: 150px;
+  }
+  .hrStyle {
+    display: none;
+  }
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .logoImg {
+    color: #fff;
+    width: 60%;
+  }
+  .loginBtn {
+    margin-top: 100px;
+    width: 50%;
+  }
+  .loginBtn {
+    margin-top: 50px;
+  }
+  .loginPage {
+    margin-top: 150px;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .logoImg {
+    width: 70%;
+    color: black;
+  }
+  .loginBtn {
+    margin-top: 75px;
+    width: 60%;
+  }
+  .loginPage {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (min-device-width: 640px) and (max-device-width: 768px) {
+  .logoImg {
+    width: 80%;
+    color: black;
+  }
+  .loginBtn {
+    margin-top: 50px;
+    width: 70%;
+  }
+  .loginPage {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 640px) {
+  .logoImg {
+    width: 80%;
+    color: black;
+  }
+  .loginBtn {
+    margin-top: 50px;
+    width: 80%;
+  }
+  .loginPage {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .logoImg {
+    width: 90%;
+    color: black;
+  }
+  .loginBtn {
+    margin-top: 50px;
+    width: 90%;
+  }
+  .loginPage {
+    margin-top: 50px;
+  }
+}
+
+/* CSS FOr Error Page */
+
+.errorImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .errorImage {
+    width: 25%;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 990px) and (max-device-width: 1024px) {
+  .errorImage {
+    width: 25%;
+  }
+}
+
+@media screen and (min-device-width: 640px) and (max-device-width: 990px) {
+  .errorImage {
+    width: 40%;
+  }
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 640px) {
+  .errorImage {
+    width: 50%;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .errorImage {
+    width: 60%;
+  }
+}
+
+/* Internal Menu Bar */
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .errorImage {
+    width: 25%;
+  }
+  .menuBar {
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 990px) and (max-device-width: 1024px) {
+  .errorImage {
+    width: 25%;
+  }
+  .menuBar {
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+@media screen and (min-device-width: 640px) and (max-device-width: 990px) {
+  .errorImage {
+    width: 40%;
+  }
+  .menuBar {
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 640px) {
+  .errorImage {
+    width: 50%;
+  }
+  .menuBar {
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .errorImage {
+    width: 60%;
+  }
+  .menuBar {
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.menutextStyle {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+/* CSS For the Horizontal Line  */
+.hrSeparator {
+  opacity: 1;
+  background-color: white;
+  height: 4px;
+}
+
+/* CSS For View Profile */
+@media screen and (min-device-width: 990px) {
+  .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    margin: 0;
+  }
+
+  .avatar-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid white;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .avatar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-device-width: 640px) and (max-device-width: 990px) {
+  .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin: 0;
+  }
+
+  .avatar-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid white;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .avatar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin: 0;
+  }
+
+  .avatar-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid white;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .avatar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-device-width: 320px) {
+  .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    margin: 0;
+  }
+
+  .avatar-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid white;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .avatar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* CSS for Item Image */
+.itemBox {
+  border: 3px solid white;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.itemName {
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.orderItemName {
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.itemImg {
+  height: 150px;
+  width: 150px;
+  align-self: center;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.itemCard:hover {
+  box-shadow: 2px 2px 10px 10px black;
+  transform: scale(1.02);
+}
+
+.recentCard:hover {
+  box-shadow: 2px 2px 10px 10px black;
+  transform: scale(1.001);
+}
+
+.whiteplaceholder::placeholder {
+  color: white;
+}

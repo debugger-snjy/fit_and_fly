@@ -1,0 +1,7 @@
+body{
+  background-image: url("./Images/background_t_25.png");
+  background-color: black;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+}
