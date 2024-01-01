@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Fit & Fly - Integrated Customer & Sales Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About The Project
 
-## Available Scripts
+This is a Management System where we have three different user roles : 
 
-In the project directory, you can run:
+1. Customer
+    - Customers can buy the item, add that item to the cart for future buying, or add it to wishlists so that he or she can buy in the coming future.
+    - Customers can deposit or withdraw money from their account anytime
+    - They can update their Address anytime.
+    - They can also get the status of their order
+    - They will also get the Email for everything they do like Transaction, Placing Orders, Orders Approved or Disapproved, or Customers Cancels Order
+2. Employee
+    - Employees can approve Orders
+    - Employees can add new items to the website
+    - Employees can add new categories as well
+    - Employees will get all the Reports like Orders Reports, Items Reports, Transaction Reports
+3. Admin
+    - Admin is the master user of the website.
+    - Admin can do all the things like approve orders, add new items, add new categories, and many more.
+    - Admin can perform Operations on different Admins, Employees, and Customers like Adding, Deleting, Updating, and Fetching.
 
-### `npm start`
+## Programming Technology :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - **Front End**: ReactJS, Bootstrap, HTML, CSS, JS
+  - **Back End**: NodeJS, ExpressJS
+  - **Database**: MongoDB
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Use
 
-### `npm test`
+- You should install MongoDB Compass for the Database
+- For the Front End and Back End, Download the code from this repository, store it in your location
+- Run Command: `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## BackEnd Repository
 
-### `npm run build`
+- Link: https://github.com/debugger-snjy/Fit-And-Fly-Backend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Login Page
+![image](https://github.com/debugger-snjy/fit_and_fly/assets/73947620/e459c2af-59e6-4183-b0ee-cfbd6329630d)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Sign Up Page
+![image](https://github.com/debugger-snjy/fit_and_fly/assets/73947620/f088dfcd-3a9a-48c0-b0fe-facd39d58f49)
 
-### `npm run eject`
+### Customer Dashboard
+![image](https://github.com/debugger-snjy/fit_and_fly/assets/73947620/e21d0bfd-c68b-4996-9498-d63deb4617b3)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Employee Dashboard
+![image](https://github.com/debugger-snjy/fit_and_fly/assets/73947620/c2b30462-9fbd-483b-98c1-257aa4ad055f)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Admin Dashboard
+![image](https://github.com/debugger-snjy/fit_and_fly/assets/73947620/1dd59f7d-1d52-4356-afc8-0235e3eeb1af)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Items Page
+![image](https://github.com/debugger-snjy/fit_and_fly/assets/73947620/a3c24f04-d65f-4606-94e3-a89b4afaa34e)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
